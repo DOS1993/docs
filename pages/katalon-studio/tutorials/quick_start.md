@@ -1,77 +1,77 @@
 ---
-title: "Quick Start"
+title: "Быстрое начало"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/quick_start.html
-description: "A quick guide to set up and start your first automation test with Katalon Studio that helps you start automation testing on web and mobile in no times."
+description: "Краткое руководство по настройке и созданию вашего первого автотеста в программе Katalon Studio, которая помогает автоматизировать web и мобильное тестирование в короткое время"
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/Q80JTXYIteU?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
-**A quick guide to set up and start your first automation test with Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. You now can start automation testing on web &**** mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
+**Краткое руководство по настройке и созданию вашего первого автотеста в программе Katalon Studio, полноценном инструменте автоматизации тестирования, созданного на основе инструментов Selenium и Appium. Вы можете &**** легко и бесплатно &**** автоматизировать web и мобильное тестирование. Скачайте бесплатно по адресу [www.katalon.com](https://www.katalon.com)**
 
-**Read full guideline [/x/l4Ei](/x/l4Ei)**
+**Ознакомиться с полным руководством [/x/l4Ei](/x/l4Ei)**
 
-### Introduction
+### Вступление
 
-This Getting Started Guide gives you a quick introduction to Katalon Studio, from downloading to activation and running your first automation test.
+В этой статье представлено краткое руководство по программе Katalon Studio, от установки и активации программы, до запуска первого автотеста.
 
-### Download Katalon Studio
+### Скачать Katalon Studio
 
-Katalon Studio is available for free, supporting both Windows and Mac. Visit [Katalon Studio website](https://www.katalon.com/) to download the latest version.
+Katalon Studio доступна для свободной загрузки, имеется поддержка операционных систем Windows и Mac. Посетите [Katalon Studio website](https://www.katalon.com/), чтобы загрузить последнюю версию.
 
-### Environment Configuration
+### Настройка окружения
 
-First you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
+Сперва нужно убедиться, что ваш компьютер соответствует [Системным Требованиям](http://docs.katalon.com/display/KD/System+Requirements) Katalon Studio.
 
-If you do **Web UI** testing, then no additional settings are needed except making sure the required browsers are installed. Check [this list](/x/dAAM) for all supported browsers.
+Если ваша цель это тестирование **Web приложений**, то никаких дополнительных настроек не требуется, кроме установленного поддерживаемого браузера. Посмотрите [этот список](/x/dAAM) всех поддерживаемых браузеров.
 
-In case of **Mobile** testing, you need to install **Node.js, Appium** and enable **USB Debugging mode** on your device first. Please refer to [Installation Guide](http://docs.katalon.com/display/KD/Installation+and+Setup) for more details.
+В случае **Мобильного** тестирования вам нужно установить **Node.js, Appium** и включить **USB Debugging mode** на вашем устройстве. Для большей информации ознакомьтесь с [инструкцией по установке](http://docs.katalon.com/display/KD/Installation+and+Setup).
 
-### Start Katalon Studio
+### Запуск Katalon Studio
 
-To start Katalon Studio, double-click on the **katalon.exe** (Microsoft Windows) or **katalon** (Mac) file in the directory where you unpack Katalon Studio.
+Для старта Katalon Studio дважды нажмите на **katalon.exe** (Microsoft Windows) или **katalon** (Mac) файл в директории, куда вы распаковали Katalon Studio.
 
-Once started, the application should display a splash screen.
+После старта должно появиться окно с заставкой программы.
 
-### Activate Katalon Build
+### Активировать версию Katalon
 
-After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio Instance. The username and password are the ones used to login to [https://www.katalon.com](https://www.katalon.com)
+Для активации вашей Katalon Studio укажите логин и пароль, использованные ранее для регистрации. Логин и пароль совпадают с теми, что используются для [https://www.katalon.com](https://www.katalon.com)
 
-### Feature Introduction
+### Обзор функций
 
-When your build is activated, the **Quick Guide** screen is displayed to guide you through all major features. You can skip this and view the Quick Guide later from the **Help** menu.
+После активации вашей версии программы появится окно **Quick Guide** для знакомства с основными функциями. Его можно пропустить и открыть быстрое руководство позже из пункта меню **Help**.
 
-At the end of the introduction, Katalon Studio suggests to create a new project. Click **OK**.
+В конце знакомства Katalon Studio предложит создать новый проект. Нажмите **OK**.
 
-### Create a Project
+### Создание нового проекта
 
-Enter the name of your new project and the location to store the project data on your machine. Click **OK**.
+Укажите название вашего проекта и путь на локальном диске, где он будет храниться. Нажмите **OK**.
 
-A new project will be generated at specified location.
+Новый проект будет создан по указанному пути.
 
-### Create your first Test Case
+### Создание первого тест-кейса
 
-–  Select option to create **New Test Case** from the main Toolbar.
+–  Выберите пункт **New Test Case** на основной панели инструментов.
 
-–  Provide the name for your test case then click **OK**.
+–  Укажите название для вашего тест-кейса и нажмите **OK**.
 
-–  A new test case will be created accordingly. The test case editor is also displayed for editing.
+–  Буден создан новый тест-кейс. Откроется окно для его редактирования.
 
-–  You can compose the test case by recording, scripting or manually entering test steps. For now, let's quickly generate the test script using **Record** feature. Click on the **Record** icon from the main Toolbar.
+–  Вы можете составлять тест-кейсы с помощью пошаговой записи, добавление скриптов или ручного ввода тестовых шагов.  Для демонстрации, давайте создадим тестовый скрипт с использованием функции **Запись**. Нажмите на иконку **Record** на панели инструментов.
 
-–  Click **Record** to launch the browser. During recording, actions performed on the browser will be captured and be generated into test steps.
+–  Нажмите **Record** для запуска браузера. Во время записи все действия, выполненные в браузере, будут запомнены и записаны в тестовые шаги.
 
-_Note: You can specify the target browser to be launched by selecting from the Record dropdownlist._
+_Примечание: Вы можете указать нужный для записи браузер, выбрав его в выпадающем списке окна Записи._
 
-–  Let's create a simple script by going to Google Search and lookup for some keywords as illustrated on the screen above. Click **OK** of **Record** dialog when you finish recording.
+–  Давайте создадим простой скрипт, воспользовавшись поиском Google и указав некоторые слова, как показано на экране выше. Нажмите **OK** в окне **Record** когда вы закончите запись.
 
-–  You are prompted to confirm saving all captured objects to Katalon Studio. Click **OK**.
+–  Вам будет предложено подтвердить сохранение всех захваченных объектов в Katalon Studio. Нажмите **OK**.
 
-–  Captured actions and objects are generated in Katalon Studio.
+–  Захваченные действия и объекты будут записаны в Katalon Studio.
 
-–  Now you can click on **Run** command from the main Toolbar to execute the script.
+–  Теперь вы можете нажать на команду **Run** на панели инструментов для выполнения скрипта. 
 
-_Note: You can specify the target browser to run the script by selecting it in the Run dropdown list._
+_Примечание: Вы можете указать нужный для запуска скрипта браузер, выбрав его в выпадающем списке окна Выполнения._
 
-Congratulations! You have just successfully created and executed your first test case.
+Поздравляем! Вы только что успешно создали и выполнили ваш первый тест-кейс.
 
-_For further instructions and help, please refer to [Katalon User Guide](/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_
+_Для получения дальнейших инструкций и помощи обратитесь, пожалуйста, к [Руководству Пользователя Katalon](/x/oArR) или на [Форум Katalon](https://forum.katalon.com/)_
